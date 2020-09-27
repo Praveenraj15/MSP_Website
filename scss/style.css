@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "BebasNeue-Bold";
+  src: url("../assets/fonts/BebasNeue-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BebasNeue-Light";
+  src: url("../assets/fonts/BebasNeue-Light.ttf") format("truetype");
+}
+
+.navbar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 54px;
+  padding-right: 54px;
+}
+
+.bg-light {
+  background-color: #DAB135 !important;
+}
+
+.nav-item {
+  margin-left: 16px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 720px;
+}
+
+.carousel__image-size {
+  width: 100%;
+  height: 100%;
+}
+
+.resource-tab {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.resource-tab .res-btn {
+  text-align: center;
+  margin: 24px;
+}
+
+.resource-tab .home-slogan {
+  font-family: 'BebasNeue-Bold', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #3D3D3D;
+}
+
+.resource-tab .res-button {
+  color: #3D3D3D;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 2px solid #DAB135;
+  padding: 12px 40px 12px 40px;
+}
+/*# sourceMappingURL=style.css.map */
