@@ -9,20 +9,68 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/style.css">
 
     <title>MyStreetPrayer – Building Lives Blessing Generations</title>
-</head>
+
+  </head>
 
 <body>
+  
+  <!-- Menu Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MyStreetPrayer Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Prayer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Adopt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testimonials</a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Language
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">English</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Kannada</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Hindi</a>
+          </div>
+        </li>
+        
+      </ul>
+     
+    </div>
+  </nav>
+<!-- Menu Bar -->
+
+
     <section class="banner__sliders">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner test">
               <div class="carousel-item active">
-                <img src="./images/Banner_1.jpg" class="d-block w-100 carousel__image-size" alt="...">
+                <img src="./assets/images/Banner_1.jpg" class="d-block w-100 carousel__image-size" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./images/BANNER-_2.jpg" class="d-block w-100 carousel__image-size" alt="...">
+                <img src="./assets/images/BANNER-_2.jpg" class="d-block w-100 carousel__image-size" alt="...">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -36,6 +84,15 @@
           </div>
 
     </section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 resource-tab">
+          <span class="home-slogan">Don’t throw your hands up in despair. Put them together in prayer.
+          </span>
+          <div class="res-btn"><button type="button" class="btn btn-primary res-button">Resources to Help You</button></div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
